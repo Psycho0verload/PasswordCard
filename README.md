@@ -3,23 +3,25 @@ Kennwort-Karte
 
 Flexibler Kennwortkarten-Generator.
 
-Bibliothek und Werkzeuge zum Generieren von Passwortkarten mit benutzerdefinierten Spalten, Zeilen, Zellenlängen, etc. Javascript für Node.js
+Werkzeug zum Generieren von Passwortkarten via NodeJS mit benutzerdefinierten Spalten-, Zeilen- und Zellenlängen.
+
 
 ### Muster
 String zur Definition der Struktur jedes Codes/jeder Zelle.
 
-| Symbol | Description                                    |
+| Symbol | Beschreibung |
 | ------ | ---------------------------------------------- |
-| __a__  | lower case ascii alphabetic characters `[a-z]` |
-| __A__  | upper case ascii alphabetic characters `[A-Z]` |
-| __1__  | numeric characters `0123456789`                |
-| __!__  | symbols `!?@#$%&()[]+-*/=<>_.,;"'`             |
-| __i__  | `[a-zA-Z]`                                     |
-| __n__  | `[0-9a-z]`                                     |
-| __N__  | `[0-9A-Z]`                                     |
-| __9__  | `[0-9a-zA-Z]`                                  |
-| __*__  | `[0-9a-zA-Z]` + symbols                        |
-| __#__  | like `*` but this cycles through types         |
+| __a__ | Kleinbuchstaben des Ascii-Alphabets `[a-z]` |
+| __A__ | Ascii-Zeichen in Großbuchstaben `[A-Z]|
+| __1__ | numerische Zeichen `0123456789` |
+| __!__ | Symbole `!?@#$%&()[]+-*/=<>_.,;"'` |
+| __i__ | `[a-zA-Z]` |
+| __n__ | `[0-9a-z]` |
+| __N__ | `[0-9A-Z]` |
+| __9__ | `[0-9a-zA-Z]` |
+| __*__ | `[0-9a-zA-Z]` + Symbole |
+| __#__ | wie `*`, aber dies durchläuft die Typen |
+| __c__ | wie `#`, aber ohne `/="`|
 
 _Examples:_
 
