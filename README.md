@@ -36,7 +36,7 @@ _Beispiele:_
 
 #### Konsolenausgabe
 
-Ausgabe des Beispiels `genPwdCardConsole.js`. Passphrase: `ThisIsMyCardCode`, Größe: 13x13, Muster: `aA1!`.
+Ausgabe des Beispiels `node example.js`. Passphrase: `ThisIsMyCardCode`, Größe: 13x13, Muster: `aA1!`.
 
 	qE7, hR6& jW0- uN9< rL2[ pA4% zS5" aV1_ kF8; fI3@ dC2] tG1* bM3'
 	iO5> yP7? vY4= eB9! sX0( cD6# oK8/ lZ3$ mH8. nT4+ xQ2) wJ6; gU1'
